@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <class>lk.cb006789.eea.mercstore.models.CardpaymentModel</class>
+        <class>lk.cb006789.eea.mercstore.models.ItemreviewModel</class>
+        <class>lk.cb006789.eea.mercstore.models.ItemtypeModel</class>
+        <class>lk.cb006789.eea.mercstore.models.MerchandiseModel</class>
+        <class>lk.cb006789.eea.mercstore.models.MerchandiseitemModel</class>
+        <class>lk.cb006789.eea.mercstore.models.OfferModel</class>
+        <class>lk.cb006789.eea.mercstore.models.SaleModel</class>
+        <class>lk.cb006789.eea.mercstore.models.SaleitemModel</class>
+        <class>lk.cb006789.eea.mercstore.models.ShoppingcartModel</class>
+        <class>lk.cb006789.eea.mercstore.models.ShoppingcartitemModel</class>
+        <class>lk.cb006789.eea.mercstore.models.UseraccModel</class>
+        <class>lk.cb006789.eea.mercstore.models.UserroleModel</class>
+        <class>lk.cb006789.eea.mercstore.models.WishlistModel</class>
+        <class>lk.cb006789.eea.mercstore.models.WishlistitemModel</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/merc_store_db"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/merc_store_db"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/merc_store_db"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://localhost:3306/merc_store_db"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
